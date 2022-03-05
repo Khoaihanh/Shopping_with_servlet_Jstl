@@ -1,0 +1,249 @@
+@charset "ISO-8859-1";
+*{
+ box-sizing: border-box;
+}
+body{
+	font-family:arial;
+	padding: 10px;
+	background: #f1f1f1;
+}
+.card1{ 
+  height: 50px;
+}
+
+#lefthead{
+	width:100px;
+	float:left;
+	display: block;
+}
+.h1{
+	clear: all;
+}
+.input-group{
+	padding-left: 500px;
+	width: 60%;
+}
+
+.page-link{
+	border-radius: 50%!important;
+	border:1px!important;
+	width: 5px;
+	height: 5px;
+	display: block;
+	margin: 5px;
+
+	
+}
+.page-item{
+	border-radius: 50% !important;
+}
+
+/*Header / Blog Title*/
+.input-group{
+	padding-left: 2px;
+}
+.header{
+
+	padding: 50px;
+	text-align:left;
+	background:#2F4F4F;
+	
+}
+.inputtext{
+	
+	width: 900px;	
+	
+	float: right;
+}
+
+
+/*Style the top navigation bar*/
+.topnav{
+	padding-left:180px;
+	overflow: hidden;
+	background-color: #333;
+}
+/*Style the Topnav linls*/
+
+.topnav a{
+	float:left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.lefthead{
+	width: 80%;}
+.righthead{float: left;
+	width: 20%;
+	padding-left: 20px;
+	height: 75px}
+/*Change color on hover*/
+.topnav a:hover{
+	background-color: #ddd;
+	color:black;
+}
+#topleft{
+	padding-left: 280px;
+}
+/* Create two unequal columns that float next to each other*/
+/*Left column*/
+.leftcolumn{
+	float: left;
+	width: 75%;
+}
+/*Right column*/
+.rightcolumn{
+	float: left;
+	width: 25%;
+	background-color: #f1f1f1;
+	padding-left: 20px;
+}
+/*fake image*/
+.fakeimg{
+	background-color: #aaa;
+	width: 100%;
+	padding: 20px;;
+}
+/*Add a card effect for articles */
+.card{
+	background-color: white;
+	padding: 20px;
+	margin-top:20px;
+}
+/*Clear float after columns*/
+.row:after{
+	content: "";
+	display:table;
+	clear: both;
+}
+/*Footer*/
+.footer{
+	float:left;
+	width:100%;
+
+	padding: 20px;
+	text-align: center;
+	background: #ddd;
+	margin-top: 20px;
+}
+
+
+.row{
+	padding-left: 20px;
+	
+}
+
+/*Responsive layout*/
+
+@media screen and (max-width:800px) {
+	.leftcolumn,.rightcolumn{
+	width:100%;
+	padding: 0;
+	}
+	.topnav{
+	padding-left: 0px;
+}
+.righthead{
+	display: none;
+}
+}
+@media screen and (max-width:400px) {
+	.topnav a{
+	float: none;
+	width:100%;
+	}
+		.topnav{
+	padding-left: 0px;
+} 
+.righthead{
+	display: none;
+}
+}
+//pagin
+.pagination {
+  list-style: none;
+  display: inline-block;
+ 
+  margin-top: 50px;
+  
+}
+.pagination li {
+  display: inline;
+  text-align: center;
+}
+.pagination a {
+  float: left;
+  display: block;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 5px 12px;
+  color: #0d6efd;
+  margin-left: -1px;
+  border: 1px solid transparent;
+  line-height: 1.5;
+}
+.pagination a.active {
+  cursor: default;
+}
+.pagination a:active {
+  outline: none;
+}
+.modal-4 a {
+  margin: 0 5px;
+  padding: 0;
+  
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  background-color: #f9fafb;
+  margin-top: 50px;
+}
+.modal-4 a.prev {
+  -moz-border-radius: 50px 0 0 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px 0 0 50px;
+  awidth: 100px;
+}
+.modal-4 a.next {
+  -moz-border-radius: 0 50px 50px 0;
+  -webkit-border-radius: 0;
+  border-radius: 0 50px 50px 0;
+  awidth: 100px;
+}
+.modal-4 a:hover {
+  background-color: #FFA500;
+}
+.modal-4 a.active, .modal-4 a:active {
+  background-color: #FFA100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
